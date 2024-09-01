@@ -82,8 +82,10 @@ f([chicken, rabbit]) = fchicken(chicken) + frabbit(rabbit)
 
 
 A = 
-$$\begin{matrix}
+$$
+\begin{matrix}
 1&1\\
 2&4\\
-\end{matrix}$$
+\end{matrix}
+$$
 
