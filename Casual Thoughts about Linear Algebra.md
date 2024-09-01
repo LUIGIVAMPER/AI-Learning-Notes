@@ -80,10 +80,10 @@ f([chicken, rabbit]) = fchicken(chicken) + frabbit(rabbit)
 
 在线性代数的背景下，这样一个线性变换也会被称作一个**线性映射（Linear Map）**，表示一个向量`[chicken, rabbit]`经过了变换f，从原来所属的向量空间被映射到了另一个向量空间，在此空间中这个向量变为了`[heads, feet]`的模样。而从前面对于`f([chicken, rabbit])`的表示我们可以看出，这个线性变换俨然可以被写作一个矩阵乘以向量的过程，即：
 
-```
+
 A = 
 $$\begin{matrix}
 1&1\\
 2&4\\
 \end{matrix}$$
-```
+
